@@ -64,6 +64,7 @@ def devolucion (dinero, nombre):
 
 precio_compra = float(precio_compra / 100)
 dinero_cliente = float(dinero_cliente / 100)
+
 print(f"\n------ TICKET COMPRA ------")
 print(f"Precio de la compra: {precio_compra}€")
 print(f"Dinero entregado: {dinero_cliente}€")
