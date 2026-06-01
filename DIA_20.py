@@ -8,7 +8,7 @@ for i in range (numero_canciones):
 mostrar = int(input("\nSi quieres ver la playlist pulsa 1: "))
 if mostrar == 1:
     print("\n--- PLAYLIST ---")
-    for i in range(len(canciones)):
+    for i in range(numero_canciones):
         print(f"Cancion {i+1}: {canciones[i]}")
 
 posicion = int(input("\nQue posición quieres consultar?: "))
